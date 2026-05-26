@@ -1,612 +1,1290 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="6nkJ8Uy26oXrxqavJfNbW24xhpz3b8ZeAEq_RhwEE80" />
-<!-- ===== Favicon ===== -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg">
-<link rel="apple-touch-icon" href="https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg">
-<meta name="theme-color" content="#050505">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<meta name="theme-color" content="#030305">
+<meta name="color-scheme" content="dark">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
 
-<!-- ===== SEO Core ===== -->
-<title>Tomas Atef | Android Root Expert, Reverse Engineer & Xiaomi Software Specialist</title>
-<meta property="og:site_name" content="Tomas Atef">
-<meta name="description" content="Tomas Atef — Professional Android Root developer, Reverse Engineering expert, Xiaomi software flasher, and Web Developer. Advanced technical solutions for Android systems.">
-<meta name="keywords" content="Tomas Atef, Android Root, Reverse Engineering, Xiaomi Flashing, Magisk, TWRP, APK Modding, Web Developer, Bootloader Unlock, Brick Fix, MIUI, HyperOS, Loodi">
+<link rel="shortcut icon" href="https://res.cloudinary.com/dme0wu80m/image/upload/w_32,h_32,c_fill,q_auto,f_png/v1779799040/IMG_20260526_153706_691_syycso.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="https://res.cloudinary.com/dme0wu80m/image/upload/w_32,h_32,c_fill,q_auto,f_png/v1779799040/IMG_20260526_153706_691_syycso.jpg">
+<link rel="icon" type="image/png" sizes="192x192" href="https://res.cloudinary.com/dme0wu80m/image/upload/w_192,h_192,c_fill,q_auto,f_png/v1779799040/IMG_20260526_153706_691_syycso.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="https://res.cloudinary.com/dme0wu80m/image/upload/w_180,h_180,c_fill,q_auto,f_png/v1779799040/IMG_20260526_153706_691_syycso.jpg">
+
+<title>Tomas Atef — Android Root & Xiaomi Recovery</title>
+<meta name="description" content="Tomas Atef. Android root expert, Xiaomi software recovery, and reverse engineer. 3+ years, 50+ devices fixed. Fast remote support.">
+<meta name="keywords" content="Android Root, Xiaomi Recovery, Magisk, Bootloader Unlock, Tomas Atef, Reverse Engineering, APK Modding, Web Developer">
 <meta name="author" content="Tomas Atef">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://tomasatef.com">
 
-
-<!-- ===== Open Graph / Facebook ===== -->
-<meta property="og:type" content="profile">
-<meta property="og:title" content="Tomas Atef | Android Root & Reverse Engineering Expert">
-<meta property="og:description" content="Professional Android Root developer, Reverse Engineering expert, and Xiaomi software specialist.">
-<meta property="og:image" content="https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tomas Atef">
+<meta property="og:title" content="Tomas Atef — Android Root & Xiaomi Recovery">
+<meta property="og:description" content="Professional Android root, Xiaomi flashing, and device recovery. Remote support available.">
+<meta property="og:image" content="https://res.cloudinary.com/dme0wu80m/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://tomasatef.com">
 <meta property="og:locale" content="en_US">
-<meta property="profile:first_name" content="Tomas">
-<meta property="profile:last_name" content="Atef">
-<meta property="profile:username" content="tomasatef">
 
-<!-- ===== Twitter Card ===== -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tomas Atef | Android Root & Reverse Engineering">
-<meta name="twitter:description" content="Android Root expert, Reverse Engineer, and Xiaomi software specialist.">
-<meta name="twitter:image" content="https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg">
+<meta name="twitter:title" content="Tomas Atef — Android Root & Xiaomi Recovery">
+<meta name="twitter:description" content="Professional Android root, Xiaomi flashing, and device recovery.">
+<meta name="twitter:image" content="https://res.cloudinary.com/dme0wu80m/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg">
 
-<!-- ===== Structured Data (Schema.org) ===== -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Tomas Atef",
-  "url": "https://tomasatef.com",
-  "image": "https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg",
-  "jobTitle": ["Web Developer", "Android Root Expert", "Reverse Engineer", "Xiaomi Software Specialist"],
-  "description": "Professional Android Root developer, Reverse Engineering expert, and Xiaomi software flasher",
-  "sameAs": [
-    "https://www.facebook.com/share/17jSXnuRuy/",
-    "https://www.instagram.com/tomasatef_u",
-    "https://t.me/root_Tom",
-    "https://wa.me/201271170094"
-  ],
-  "knowsAbout": [
-    "Android Rooting",
-    "Xiaomi Flashing & Software",
-    "Reverse Engineering",
-    "Web Development",
-    "APK Modification",
-    "Magisk Modules",
-    "TWRP Recovery"
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Person","name":"Tomas Atef","url":"https://tomasatef.com","jobTitle":"Android Root Expert","sameAs":["https://t.me/root_Tom","https://www.instagram.com/tomasatef_u","https://www.facebook.com/share/17jSXnuRuy/"],"knowsAbout":["Android Rooting","Xiaomi Flashing","Reverse Engineering","Web Development"]},
+    {"@type":"ProfessionalService","name":"Tomas Atef","url":"https://tomasatef.com","areaServed":"Worldwide","serviceType":["Android Root","Xiaomi Recovery","Reverse Engineering","Web Development"],"provider":{"@type":"Person","name":"Tomas Atef"}}
   ]
 }
 </script>
 
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
 :root{
-  --primary:#00b7ff;
-  --primary-glow:rgba(0,183,255,0.4);
+  --primary:#00d4ff;
   --secondary:#7000ff;
-  --bg:#050505;
-  --card-bg:rgba(15,15,15,0.6);
-  --border:rgba(255,255,255,0.08);
-  --text:#e0e0e0;
-  --text-dim:#888;
+  --accent:#ff0055;
+  --bg:#030305;
+  --surface:rgba(255,255,255,0.03);
+  --border:rgba(255,255,255,0.06);
+  --text:#f0f0f5;
+  --text-dim:#6b6b7b;
+  --radius:24px;
+  --glow:0 0 40px rgba(0,212,255,0.15);
 }
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-body{
-  background:var(--bg);
-  color:#fff;
-  font-family:'Cairo','Space Grotesk',sans-serif;
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{
+  scroll-behavior:smooth;
   overflow-x:hidden;
-  min-height:100vh;
+  font-size:16px;
+  scroll-padding-top:80px;
+  scrollbar-gutter:stable;
+}
+body{
+  background:var(--bg);color:var(--text);font-family:'Space Grotesk',system-ui,-apple-system,sans-serif;
+  overflow-x:hidden;line-height:1.6;-webkit-font-smoothing:antialiased;
+  max-width:100vw;min-height:100vh;
 }
 
-/* Animated Background */
-.bg-orb{
-  position:fixed;
-  border-radius:50%;
-  filter:blur(80px);
-  opacity:0.35;
-  z-index:0;
-  pointer-events:none;
-}
-.orb-1{
-  width:500px;height:500px;
-  background:var(--primary);
-  top:-10%;right:-10%;
-  animation:float 8s ease-in-out infinite;
-}
-.orb-2{
-  width:400px;height:400px;
-  background:var(--secondary);
-  bottom:-10%;left:-10%;
-  animation:float 10s ease-in-out infinite reverse;
-}
-.orb-3{
-  width:300px;height:300px;
-  background:#ff0055;
-  top:40%;left:30%;
-  opacity:0.15;
-  animation:float 12s ease-in-out infinite 2s;
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important;scroll-behavior:auto!important}
+  .cursor-system,.cursor-trail,.bg-mesh,.noise-anim{display:none!important}
 }
 
-@keyframes float{
-  0%,100%{transform:translate(0,0) scale(1);}
-  33%{transform:translate(30px,-30px) scale(1.1);}
-  66%{transform:translate(-20px,20px) scale(0.9);}
+/* ===== CURSOR: Desktop Only ===== */
+@media (pointer:fine){body{cursor:none}}
+
+.cursor-system{position:fixed;pointer-events:none;z-index:99999;top:0;left:0;will-change:transform}
+.cursor-dot{
+  width:8px;height:8px;background:var(--primary);border-radius:50%;
+  transform:translate(-50%,-50%);transition:transform 0.15s ease-out, width 0.2s, height 0.2s, background 0.2s;
+  box-shadow:0 0 20px var(--primary), 0 0 40px var(--primary);
+  mix-blend-mode:difference;will-change:transform
+}
+.cursor-dot.hovering{width:40px;height:40px;background:rgba(0,212,255,0.1);border:1px solid var(--primary);box-shadow:0 0 30px rgba(0,212,255,0.3)}
+.cursor-dot.clicking{transform:translate(-50%,-50%) scale(0.6)}
+
+.cursor-trail{
+  position:fixed;pointer-events:none;z-index:99998;border-radius:50%;
+  background:radial-gradient(circle, rgba(0,212,255,0.15) 0%, transparent 70%);
+  transform:translate(-50%,-50%);will-change:transform
+}
+.cursor-trail-1{width:60px;height:60px;filter:blur(2px)}
+.cursor-trail-2{width:120px;height:120px;filter:blur(8px);opacity:0.6}
+.cursor-trail-3{width:200px;height:200px;filter:blur(20px);opacity:0.3}
+
+@media (pointer:coarse){
+  .cursor-system,.cursor-trail{display:none!important}
+  body{cursor:auto!important}
 }
 
-/* Noise Texture Overlay */
-.noise{
-  position:fixed;
-  inset:0;
-  z-index:1;
-  opacity:0.03;
-  pointer-events:none;
-  background:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+/* ===== LOADING ===== */
+.loader{
+  position:fixed;inset:0;z-index:100000;background:var(--bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  transition:opacity 0.8s cubic-bezier(0.4,0,0.2,1), visibility 0.8s;
+}
+.loader.done{opacity:0;visibility:hidden;pointer-events:none}
+
+.loader-ring{
+  width:80px;height:80px;border-radius:50%;border:2px solid transparent;
+  border-top-color:var(--primary);border-right-color:var(--secondary);
+  animation:spin 1s linear infinite;position:relative;
+}
+.loader-ring::before{
+  content:'';position:absolute;inset:-8px;border-radius:50%;
+  border:2px solid transparent;border-bottom-color:var(--accent);border-left-color:var(--primary);
+  animation:spin 1.5s linear infinite reverse;
+}
+.loader-ring::after{
+  content:'';position:absolute;inset:8px;border-radius:50%;
+  border:2px solid transparent;border-top-color:var(--secondary);border-right-color:var(--accent);
+  animation:spin 2s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.loader-text{
+  margin-top:32px;font-size:11px;letter-spacing:4px;color:var(--text-dim);
+  text-transform:uppercase;font-weight:500;overflow:hidden;
+}
+.loader-text span{
+  display:inline-block;animation:loaderTextReveal 0.6s ease forwards;
+  opacity:0;transform:translateY(20px);
+}
+@keyframes loaderTextReveal{to{opacity:1;transform:translateY(0)}}
+
+.loader-counter{
+  margin-top:16px;font-size:48px;font-weight:700;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  font-variant-numeric:tabular-nums;
 }
 
-/* Container */
-.container{
-  position:relative;
-  z-index:2;
-  max-width:1000px;
-  margin:auto;
-  padding:80px 24px;
-  text-align:center;
+/* ===== SCROLL PROGRESS ===== */
+.scroll-progress-wrap{
+  position:fixed;top:0;left:0;right:0;height:3px;z-index:9999;
+  background:rgba(255,255,255,0.02);
 }
+.scroll-progress{
+  height:100%;width:0%;
+  background:linear-gradient(90deg,var(--primary),var(--secondary),var(--accent),var(--primary));
+  background-size:200% 100%;
+  animation:progressGradient 3s linear infinite;
+  box-shadow:0 0 20px var(--primary), 0 0 40px var(--secondary);
+  transition:width 0.1s linear;
+  will-change:width;
+}
+@keyframes progressGradient{0%{background-position:0% 50%}100%{background-position:200% 50%}}
 
-/* ===== Flags Section ===== */
-.flags-wrap{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:16px;
-  margin-bottom:20px;
+/* ===== NAV ===== */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  padding:20px 32px;display:flex;align-items:center;justify-content:space-between;
+  background:transparent;
+  transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
+  max-width:100vw;will-change:transform;
 }
-.flag{
-  width:40px;
-  height:28px;
-  border-radius:6px;
-  object-fit:cover;
-  box-shadow:0 0 15px rgba(255,255,255,0.15);
-  transition:all 0.4s cubic-bezier(0.4,0,0.2,1);
-  border:1px solid rgba(255,255,255,0.1);
+.nav.scrolled{
+  padding:14px 32px;
+  background:rgba(3,3,5,0.85);
+  backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  border-bottom:1px solid rgba(0,212,255,0.08);
 }
-.flag:hover{
-  transform:scale(1.2) translateY(-3px);
-  box-shadow:0 5px 25px rgba(255,255,255,0.3);
+.nav-logo{
+  font-weight:700;font-size:20px;color:#fff;letter-spacing:-0.5px;
+  display:flex;align-items:center;gap:12px;position:relative;
 }
-.flag-divider{
-  width:1px;
-  height:20px;
-  background:rgba(255,255,255,0.2);
+.nav-logo::before{
+  content:'T';width:36px;height:36px;border-radius:10px;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  display:grid;place-items:center;font-size:18px;font-weight:900;color:#fff;
+  box-shadow:0 0 20px rgba(0,212,255,0.3);
+  animation:logoPulse 3s ease-in-out infinite;
 }
+@keyframes logoPulse{0%,100%{box-shadow:0 0 20px rgba(0,212,255,0.3)}50%{box-shadow:0 0 40px rgba(0,212,255,0.6)}}
 
-/* Badge */
-.badge{
-  display:inline-flex;
-  align-items:center;
-  gap:8px;
-  padding:8px 20px;
-  background:rgba(0,183,255,0.1);
-  border:1px solid rgba(0,183,255,0.3);
-  border-radius:50px;
-  font-size:14px;
-  font-weight:600;
-  color:var(--primary);
-  margin-bottom:24px;
+.nav-links{display:flex;align-items:center;gap:40px}
+.nav-links a{
+  color:var(--text-dim);text-decoration:none;font-size:14px;font-weight:500;
+  transition:all 0.3s;position:relative;letter-spacing:0.5px;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-8px;left:50%;width:0;height:2px;
+  background:linear-gradient(90deg,var(--primary),var(--secondary));
+  border-radius:2px;transition:all 0.3s cubic-bezier(0.4,0,0.2,1);
+  transform:translateX(-50%);
+}
+.nav-links a:hover{color:#fff}
+.nav-links a:hover::after{width:100%}
+
+.nav-cta{
+  padding:12px 28px;border-radius:50px;
+  border:1px solid rgba(0,212,255,0.3);
+  background:linear-gradient(135deg,rgba(0,212,255,0.08),rgba(112,0,255,0.08));
+  color:var(--primary);font-weight:700;font-size:13px;text-decoration:none;
+  transition:all 0.4s;position:relative;overflow:hidden;
   backdrop-filter:blur(10px);
 }
+.nav-cta::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  opacity:0;transition:opacity 0.4s;z-index:-1;
+}
+.nav-cta:hover{color:#fff;border-color:transparent;box-shadow:0 0 40px rgba(0,212,255,0.4)}
+.nav-cta:hover::before{opacity:1}
+
+.hamburger{display:none;flex-direction:column;gap:6px;cursor:pointer;padding:8px;z-index:1100}
+.hamburger span{display:block;width:26px;height:2px;background:#fff;border-radius:2px;transition:all 0.4s cubic-bezier(0.4,0,0.2,1);transform-origin:center}
+
+.mobile-menu{
+  position:fixed;inset:0;z-index:1050;background:rgba(3,3,5,0.98);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:48px;
+  opacity:0;pointer-events:none;transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
+  transform:scale(1.1);backdrop-filter:blur(30px);
+}
+.mobile-menu.open{opacity:1;pointer-events:all;transform:scale(1)}
+.mobile-menu a{color:#fff;text-decoration:none;font-size:32px;font-weight:600;opacity:0;transform:translateY(30px);transition:all 0.5s cubic-bezier(0.4,0,0.2,1)}
+.mobile-menu.open a{opacity:1;transform:translateY(0)}
+.mobile-menu.open a:nth-child(1){transition-delay:0.1s}
+.mobile-menu.open a:nth-child(2){transition-delay:0.2s}
+.mobile-menu.open a:nth-child(3){transition-delay:0.3s}
+.mobile-menu.open a:nth-child(4){transition-delay:0.4s}
+.mobile-menu.open a:nth-child(5){transition-delay:0.5s}
+
+@media(max-width:768px){
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .nav{padding:16px 20px}
+  .nav.scrolled{padding:12px 20px}
+}
+
+/* ===== MESH BG ===== */
+.bg-mesh{
+  position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;
+  will-change:transform;transform:translateZ(0);
+}
+.mesh-orb{
+  position:absolute;border-radius:50%;filter:blur(80px);opacity:0.4;
+  will-change:transform;transform:translateZ(0);
+}
+.mesh-1{
+  width:600px;height:600px;background:radial-gradient(circle, var(--primary), transparent 70%);
+  top:-20%;right:-10%;animation:meshFloat 25s ease-in-out infinite;
+}
+.mesh-2{
+  width:500px;height:500px;background:radial-gradient(circle, var(--secondary), transparent 70%);
+  bottom:-20%;left:-10%;animation:meshFloat 30s ease-in-out infinite reverse;
+}
+.mesh-3{
+  width:400px;height:400px;background:radial-gradient(circle, var(--accent), transparent 70%);
+  top:40%;left:30%;opacity:0.2;animation:meshFloat 35s ease-in-out infinite;
+}
+.mesh-4{
+  width:300px;height:300px;background:radial-gradient(circle, var(--primary), transparent 70%);
+  bottom:30%;right:20%;opacity:0.15;animation:meshFloat 28s ease-in-out infinite reverse;
+}
+@keyframes meshFloat{
+  0%,100%{transform:translate3d(0,0,0) scale(1)}
+  25%{transform:translate3d(50px,-30px,0) scale(1.1)}
+  50%{transform:translate3d(-30px,50px,0) scale(0.9)}
+  75%{transform:translate3d(20px,-20px,0) scale(1.05)}
+}
+
+/* ===== GRID BG ===== */
+.grid-bg{
+  position:fixed;inset:0;z-index:1;pointer-events:none;opacity:0.04;
+  background-image:
+    linear-gradient(rgba(0,212,255,0.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,0.5) 1px, transparent 1px);
+  background-size:80px 80px;
+  mask-image:radial-gradient(ellipse at center, black 30%, transparent 80%);
+  -webkit-mask-image:radial-gradient(ellipse at center, black 30%, transparent 80%);
+  animation:gridPulse 8s ease-in-out infinite;
+  will-change:opacity;
+}
+@keyframes gridPulse{0%,100%{opacity:0.04}50%{opacity:0.07}}
+
+/* ===== NOISE ===== */
+.noise-anim{
+  position:fixed;inset:0;z-index:2;pointer-events:none;opacity:0.025;
+  background:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation:noiseShift 0.5s steps(4) infinite;
+  will-change:transform;
+}
+@keyframes noiseShift{0%{transform:translate(0,0)}25%{transform:translate(-5px,5px)}50%{transform:translate(5px,-5px)}75%{transform:translate(-5px,-5px)}100%{transform:translate(0,0)}}
+
+/* ===== MOBILE PERFORMANCE ===== */
+@media(max-width:768px){
+  .noise-anim,.grid-bg,.cursor-trail,.mesh-orb{display:none!important}
+  .service-card:hover,.project-card:hover,.why-card:hover,.stat-card:hover{transform:none!important}
+  .hero-image-wrap:hover img{transform:scale(1.02)!important}
+}
+
+/* ===== LAYOUT ===== */
+.container{position:relative;z-index:10;max-width:1140px;margin:auto;padding:140px 24px 80px;overflow-x:hidden}
+@media(max-width:768px){.container{padding:110px 20px 50px}}
+
+/* ===== HERO ===== */
+.hero{text-align:center;position:relative;min-height:90vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+
+.hero > *{
+  animation:heroEnter 1s cubic-bezier(0.4,0,0.2,1) forwards;
+  opacity:0;
+}
+.hero > *:nth-child(1){animation-delay:0.1s}
+.hero > *:nth-child(2){animation-delay:0.2s}
+.hero > *:nth-child(3){animation-delay:0.3s}
+.hero > *:nth-child(4){animation-delay:0.4s}
+.hero > *:nth-child(5){animation-delay:0.5s}
+.hero > *:nth-child(6){animation-delay:0.6s}
+
+@keyframes heroEnter{
+  from{opacity:0;transform:translateY(40px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+.flags-wrap{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:28px}
+.flag{width:40px;height:30px;border-radius:8px;object-fit:cover;border:1px solid rgba(255,255,255,0.1);opacity:0.6;transition:all 0.4s;filter:grayscale(30%)}
+.flag:hover{opacity:1;transform:scale(1.2) translateY(-4px);box-shadow:0 8px 30px rgba(0,212,255,0.25);filter:grayscale(0%)}
+.flag-divider{width:1px;height:24px;background:linear-gradient(180deg,transparent, rgba(255,255,255,0.2), transparent)}
+
+.badge{
+  display:inline-flex;align-items:center;gap:12px;
+  padding:10px 24px;background:rgba(0,212,255,0.05);
+  border:1px solid rgba(0,212,255,0.15);border-radius:50px;
+  font-size:13px;font-weight:600;color:var(--primary);margin-bottom:32px;
+  backdrop-filter:blur(10px);transition:all 0.4s;
+  animation:badgeFloat 3s ease-in-out infinite;
+}
+@keyframes badgeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.badge:hover{border-color:rgba(0,212,255,0.4);box-shadow:0 0 30px rgba(0,212,255,0.15)}
 .badge-dot{
-  width:8px;height:8px;
-  background:var(--primary);
-  border-radius:50%;
-  box-shadow:0 0 10px var(--primary);
-  animation:pulse 2s infinite;
+  width:8px;height:8px;background:var(--primary);border-radius:50%;
+  box-shadow:0 0 15px var(--primary);animation:pulse 2s ease-in-out infinite;
 }
-@keyframes pulse{
-  0%,100%{opacity:1;transform:scale(1);}
-  50%{opacity:0.5;transform:scale(0.8);}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.3;transform:scale(0.7)}}
+
+h1{font-size:clamp(40px,12vw,84px);font-weight:700;line-height:1.05;letter-spacing:-3px;margin-bottom:16px;position:relative}
+h1 .accent{
+  background:linear-gradient(135deg,#fff 0%,var(--primary) 25%,var(--secondary) 60%,var(--accent) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  background-size:200% 200%;animation:gradientShift 5s ease infinite;
+}
+@keyframes gradientShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+h1 .accent:hover{animation:gradientShift 2s ease infinite, glitchText 0.3s ease}
+@keyframes glitchText{
+  0%,100%{transform:translate(0)}20%{transform:translate(-2px,2px)}40%{transform:translate(2px,-2px)}60%{transform:translate(-2px,-2px)}80%{transform:translate(2px,2px)}
 }
 
-/* Title */
-h1{
-  font-size:clamp(36px,6vw,64px);
-  font-weight:900;
-  line-height:1.1;
-  margin-bottom:12px;
-  background:linear-gradient(135deg,#fff 0%,var(--primary) 50%,var(--secondary) 100%);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
+.dynamic-text-wrap{
+  font-size:clamp(16px,4vw,22px);color:var(--text-dim);font-weight:500;
+  min-height:36px;margin-bottom:48px;display:inline-flex;align-items:center;gap:6px;
 }
-h1 span{
-  display:block;
-  font-size:0.5em;
-  font-weight:400;
-  color:var(--text-dim);
-  -webkit-text-fill-color:var(--text-dim);
-  margin-top:8px;
+.dynamic-text-wrap .cursor{
+  display:inline-block;width:3px;height:22px;background:var(--primary);
+  animation:cursorBlink 1s infinite;box-shadow:0 0 15px var(--primary);
 }
+@keyframes cursorBlink{0%,100%{opacity:1}50%{opacity:0}}
 
-.subtitle{
-  color:var(--text-dim);
-  font-size:18px;
-  max-width:500px;
-  margin:0 auto 50px;
-  line-height:1.7;
+/* ===== HERO IMAGE ===== */
+.hero-image-wrap{
+  position:relative;display:inline-block;margin-bottom:48px;
+  max-width:min(520px,85vw);perspective:1000px;
 }
+.hero-image-glow{
+  position:absolute;inset:-30px;border-radius:30px;
+  background:conic-gradient(from 0deg, var(--primary), var(--secondary), var(--accent), var(--primary));
+  opacity:0.15;filter:blur(40px);animation:spinGlow 8s linear infinite;
+}
+@keyframes spinGlow{to{transform:rotate(360deg)}}
 
-/* Profile Section - Enhanced */
-.profile-wrap{
-  position:relative;
-  display:inline-block;
-  margin-bottom:40px;
+.hero-image-wrap img{
+  position:relative;z-index:2;width:100%;height:auto;aspect-ratio:4/3;
+  object-fit:cover;border-radius:24px;
+  border:2px solid rgba(0,212,255,0.15);
+  box-shadow:0 0 80px rgba(0,212,255,0.1), 0 0 160px rgba(0,212,255,0.05);
+  transition:all 0.6s cubic-bezier(0.4,0,0.2,1);
+  animation:heroBreath 6s ease-in-out infinite;
+  will-change:transform;
 }
+@keyframes heroBreath{0%,100%{transform:scale(1)}50%{transform:scale(1.01)}}
 
-/* Outer Glow Ring */
-.profile-glow{
-  position:absolute;
-  inset:-30px;
-  border-radius:50%;
-  background:conic-gradient(from 0deg, var(--primary), var(--secondary), #ff0055, var(--primary));
-  opacity:0.3;
-  filter:blur(15px);
-  animation:spin-glow 8s linear infinite;
-}
-@keyframes spin-glow{
-  to{transform:rotate(360deg);}
-}
-
-/* Inner Rotating Ring */
-.profile-ring{
-  position:absolute;
-  inset:-12px;
-  border-radius:50%;
-  border:2px solid transparent;
-  border-top-color:var(--primary);
-  border-right-color:var(--secondary);
-  animation:spin 3s linear infinite;
-}
-.profile-ring-2{
-  inset:-20px;
-  border-top-color:var(--secondary);
-  border-left-color:var(--primary);
-  animation:spin 5s linear infinite reverse;
-  opacity:0.6;
-}
-@keyframes spin{
-  to{transform:rotate(360deg);}
-}
-
-.profile{
-  position:relative;
-  z-index:2;
-}
-
-.profile img{
-  width:200px;height:200px;
-  border-radius:50%;
-  object-fit:cover;
-  border:4px solid rgba(0,183,255,0.4);
-  box-shadow:
-    0 0 40px rgba(0,183,255,0.4),
-    0 0 80px rgba(0,183,255,0.15),
-    0 0 120px rgba(0,183,255,0.05),
-    inset 0 0 40px rgba(0,0,0,0.6);
-  transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
-}
-.profile img:hover{
-  transform:scale(1.08);
-  box-shadow:
-    0 0 60px rgba(0,183,255,0.6),
-    0 0 100px rgba(0,183,255,0.25),
-    0 0 150px rgba(0,183,255,0.1),
-    inset 0 0 40px rgba(0,0,0,0.6);
+.hero-image-wrap:hover img{
+  transform:scale(1.03) rotateY(5deg) rotateX(-2deg);
   border-color:var(--primary);
+  box-shadow:0 0 100px rgba(0,212,255,0.25), 0 0 200px rgba(0,212,255,0.1);
 }
 
-/* Main Card - Glassmorphism */
-.card{
-  background:var(--card-bg);
-  border:1px solid var(--border);
-  border-radius:24px;
-  padding:40px;
-  backdrop-filter:blur(20px);
+.hero-image-wrap::after{
+  content:'';position:absolute;inset:0;border-radius:24px;
+  background:linear-gradient(to top, rgba(0,0,0,0.35), transparent 60%);
+  z-index:3;pointer-events:none;
+}
+
+/* ===== CTA ===== */
+.cta-row{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin-bottom:100px}
+.cta-btn{
+  padding:18px 44px;border-radius:50px;font-weight:700;font-size:15px;
+  text-decoration:none;transition:all 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+  display:inline-flex;align-items:center;gap:12px;
+  position:relative;overflow:hidden;z-index:1;
+  will-change:transform;
+}
+.cta-primary{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;
+  box-shadow:0 10px 50px rgba(0,212,255,0.3), 0 0 0 0 rgba(0,212,255,0.4);
+  animation:ctaPulse 3s ease-in-out infinite;
+}
+@keyframes ctaPulse{0%,100%{box-shadow:0 10px 50px rgba(0,212,255,0.3), 0 0 0 0 rgba(0,212,255,0.4)}50%{box-shadow:0 10px 50px rgba(0,212,255,0.4), 0 0 0 15px rgba(0,212,255,0)}}
+
+.cta-primary::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--secondary),var(--accent));
+  opacity:0;transition:opacity 0.4s;z-index:-1;
+}
+.cta-primary:hover{transform:translateY(-4px) scale(1.02)}
+.cta-primary:hover::before{opacity:1}
+
+.cta-secondary{
+  background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.08);
+  backdrop-filter:blur(10px);position:relative;
+}
+.cta-secondary::before{
+  content:'';position:absolute;inset:0;border-radius:50px;
+  padding:1px;background:linear-gradient(135deg,var(--primary),var(--secondary));
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:0;transition:opacity 0.4s;
+}
+.cta-secondary:hover{border-color:transparent}
+.cta-secondary:hover::before{opacity:1}
+.cta-secondary:hover{color:var(--primary);transform:translateY(-4px)}
+
+@media(max-width:480px){
+  .cta-row{gap:14px;margin-bottom:70px}
+  .cta-btn{padding:16px 32px;font-size:14px}
+}
+
+/* ===== STATS ===== */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-bottom:120px}
+.stat-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:40px 24px;text-align:center;transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
+  position:relative;overflow:hidden;backdrop-filter:blur(10px);
+  will-change:transform;transform:translateZ(0);
+}
+.stat-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--primary),var(--secondary),var(--accent));
+  opacity:0;transition:opacity 0.5s;
+}
+.stat-card:hover{border-color:rgba(0,212,255,0.2);transform:translateY(-12px) scale(1.02);box-shadow:0 30px 60px rgba(0,0,0,0.3), var(--glow)}
+.stat-card:hover::before{opacity:1}
+.stat-num{
+  font-size:clamp(32px,7vw,44px);font-weight:700;margin-bottom:10px;
+  background:linear-gradient(135deg,#fff,var(--primary));-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  font-variant-numeric:tabular-nums;
+}
+.stat-label{font-size:11px;color:var(--text-dim);font-weight:600;text-transform:uppercase;letter-spacing:2px}
+
+@media(max-width:768px){
+  .stats-row{grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:80px}
+  .stat-card{padding:32px 16px;border-radius:20px}
+}
+@media(max-width:480px){
+  .stats-row{gap:10px}
+  .stat-card{padding:24px 12px}
+}
+
+/* ===== SECTION HEADERS ===== */
+.section-header{text-align:center;margin-bottom:80px;position:relative}
+.section-title{
+  font-size:clamp(28px,7vw,48px);font-weight:700;margin-bottom:20px;display:inline-block;
   position:relative;
-  overflow:hidden;
 }
-.card::before{
-  content:'';
-  position:absolute;
-  inset:0;
-  border-radius:24px;
-  padding:1px;
-  background:linear-gradient(135deg,rgba(0,183,255,0.3),transparent 40%,transparent 60%,rgba(112,0,255,0.3));
-  -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-  mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
-  -webkit-mask-composite:xor;
-  mask-composite:exclude;
-  pointer-events:none;
+.section-title span{
+  background:linear-gradient(135deg,#fff 0%,var(--primary) 50%,var(--secondary) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-size:200% 200%;animation:gradientShift 6s ease infinite;
+}
+.section-title::after{
+  content:'';display:block;width:80px;height:3px;
+  background:linear-gradient(90deg,var(--primary),var(--secondary),var(--accent));
+  border-radius:3px;margin:20px auto 0;animation:lineGrow 1s ease-out forwards;
+  transform-origin:center;transform:scaleX(0);
+}
+.section-title.visible::after{transform:scaleX(1)}
+@keyframes lineGrow{to{transform:scaleX(1)}}
+
+.section-sub{color:var(--text-dim);font-size:17px;max-width:520px;margin:0 auto;line-height:1.8;padding:0 20px}
+
+/* ===== WHY ===== */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-bottom:120px}
+.why-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:40px;transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
+  position:relative;overflow:hidden;backdrop-filter:blur(10px);
+  will-change:transform;transform:translateZ(0);
+}
+.why-card::before{
+  content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent, rgba(0,212,255,0.03), transparent);
+  transition:left 0.7s;
+}
+.why-card:hover::before{left:100%}
+.why-card::after{
+  content:'';position:absolute;bottom:0;left:0;right:0;height:0;
+  background:linear-gradient(90deg,var(--primary),var(--secondary));transition:height 0.4s;opacity:0.4;
+}
+.why-card:hover{border-color:rgba(0,212,255,0.2);transform:translateY(-8px) scale(1.01);box-shadow:var(--glow)}
+.why-card:hover::after{height:3px}
+.why-icon{
+  width:56px;height:56px;border-radius:16px;
+  background:linear-gradient(135deg,rgba(0,212,255,0.1),rgba(112,0,255,0.1));
+  border:1px solid rgba(0,212,255,0.15);display:grid;place-items:center;
+  font-size:26px;margin-bottom:24px;transition:all 0.5s;
+}
+.why-card:hover .why-icon{transform:scale(1.15) rotate(-8deg);border-color:rgba(0,212,255,0.3);box-shadow:0 0 30px rgba(0,212,255,0.1)}
+.why-card h3{font-size:18px;font-weight:700;margin-bottom:12px;color:#fff}
+.why-card p{font-size:15px;color:var(--text-dim);line-height:1.8}
+
+@media(max-width:768px){
+  .why-grid{grid-template-columns:1fr;gap:16px;margin-bottom:80px}
+  .why-card{padding:28px;border-radius:20px}
 }
 
-.intro-text{
-  font-size:22px;
-  line-height:2.2;
-  color:var(--text);
-  margin-bottom:30px;
+/* ===== SERVICES ===== */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;margin-bottom:120px}
+.service-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:40px;transition:all 0.5s cubic-bezier(0.4,0,0.2,1);position:relative;
+  overflow:hidden;backdrop-filter:blur(10px);
+  will-change:transform;transform:translateZ(0);
 }
-.intro-text b{
-  color:var(--primary);
-  font-weight:800;
+.service-card::before{
+  content:'';position:absolute;top:-50%;right:-50%;width:200px;height:200px;
+  background:radial-gradient(circle, rgba(0,212,255,0.08), transparent 70%);
+  opacity:0;transition:all 0.5s;border-radius:50%;
+}
+.service-card:hover::before{opacity:1;top:-20%;right:-20%}
+.service-card::after{
+  content:'';position:absolute;inset:0;border-radius:var(--radius);
+  padding:1px;background:linear-gradient(135deg,var(--primary),var(--secondary));
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:0;transition:opacity 0.5s;
+}
+.service-card:hover{border-color:transparent;transform:translateY(-8px) scale(1.01);box-shadow:0 30px 60px rgba(0,0,0,0.4), var(--glow)}
+.service-card:hover::after{opacity:1}
+.service-card h3{font-size:19px;font-weight:700;margin-bottom:14px;color:#fff;display:flex;align-items:center;gap:14px}
+.service-card p{font-size:15px;color:var(--text-dim);line-height:1.9}
+
+@media(max-width:768px){
+  .services-grid{grid-template-columns:1fr;gap:16px;margin-bottom:80px}
+  .service-card{padding:32px;border-radius:20px}
 }
 
-/* Loodi Credit */
-.loodie-credit{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:12px;
-  padding:16px;
-  background:rgba(0,183,255,0.05);
-  border:1px solid rgba(0,183,255,0.15);
-  border-radius:16px;
-  margin-bottom:30px;
-  font-size:15px;
-  color:var(--text-dim);
-  transition:all 0.3s;
+/* ===== PROJECTS ===== */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:28px;margin-bottom:120px}
+.project-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  overflow:hidden;transition:all 0.6s cubic-bezier(0.4,0,0.2,1);position:relative;
+  backdrop-filter:blur(10px);
+  will-change:transform;transform:translateZ(0);
 }
-.loodie-credit:hover{
-  border-color:rgba(0,183,255,0.3);
-  background:rgba(0,183,255,0.08);
+.project-card::before{
+  content:'';position:absolute;inset:0;border-radius:var(--radius);
+  padding:1px;background:linear-gradient(135deg,var(--primary),var(--secondary),var(--accent));
+  -webkit-mask:linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite:xor;mask-composite:exclude;
+  opacity:0;transition:opacity 0.5s;z-index:3;pointer-events:none;
 }
-.loodie-credit .tag{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  padding:4px 12px;
-  background:rgba(0,183,255,0.15);
-  border-radius:50px;
-  font-size:12px;
-  font-weight:700;
-  color:var(--primary);
+.project-card:hover{border-color:transparent;transform:translateY(-12px) scale(1.02);box-shadow:0 40px 80px rgba(0,0,0,0.5), var(--glow)}
+.project-card:hover::before{opacity:1}
+.project-img{
+  height:220px;
+  background:linear-gradient(135deg,rgba(0,212,255,0.06),rgba(112,0,255,0.06),rgba(255,0,85,0.02));
+  display:grid;place-items:center;font-size:64px;position:relative;overflow:hidden;
+}
+.project-img::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,transparent 40%,rgba(0,212,255,0.08) 100%);
+}
+.project-img .emoji{transition:transform 0.5s;z-index:2}
+.project-card:hover .emoji{transform:scale(1.2) rotate(5deg)}
+.project-body{padding:36px;position:relative;z-index:2}
+.project-body h3{font-size:20px;font-weight:700;margin-bottom:12px;transition:color 0.3s}
+.project-card:hover .project-body h3{color:var(--primary)}
+.project-body p{font-size:15px;color:var(--text-dim);line-height:1.8;margin-bottom:20px}
+.project-tags{display:flex;flex-wrap:wrap;gap:10px}
+.project-tags span{
+  font-size:12px;padding:8px 16px;border-radius:50px;
+  background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.1);
+  color:var(--primary);font-weight:500;transition:all 0.3s;
+}
+.project-tags span:hover{background:rgba(0,212,255,0.12);border-color:rgba(0,212,255,0.3);transform:translateY(-2px)}
+
+@media(max-width:768px){
+  .projects-grid{grid-template-columns:1fr;gap:16px;margin-bottom:80px}
+  .project-card{border-radius:20px}
+  .project-img{height:180px;font-size:56px}
+  .project-body{padding:28px}
 }
 
-/* Skills Tags */
-.skills-grid{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:10px;
-  margin:25px 0;
+/* ===== CONTACT ===== */
+.contact-section{margin-bottom:80px}
+.contact-box{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:60px;text-align:center;position:relative;overflow:hidden;
+  backdrop-filter:blur(10px);
 }
-.skill-tag{
-  display:inline-flex;
-  align-items:center;
-  gap:6px;
-  padding:8px 18px;
-  background:rgba(0,183,255,0.08);
-  border:1px solid rgba(0,183,255,0.2);
-  border-radius:50px;
-  font-size:14px;
-  font-weight:700;
-  color:var(--primary);
-  transition:all 0.3s;
+.contact-box::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(circle at 50% 50%, rgba(0,212,255,0.04) 0%, transparent 60%);
+  pointer-events:none;animation:contactGlow 4s ease-in-out infinite;
 }
-.skill-tag:hover{
-  background:rgba(0,183,255,0.2);
-  transform:translateY(-2px);
-  box-shadow:0 5px 20px rgba(0,183,255,0.2);
+@keyframes contactGlow{0%,100%{opacity:0.5}50%{opacity:1}}
+.contact-box h3{font-size:32px;font-weight:700;margin-bottom:16px;position:relative;z-index:1}
+.contact-box p{color:var(--text-dim);font-size:16px;margin-bottom:40px;max-width:440px;margin-left:auto;margin-right:auto;position:relative;z-index:1}
+.contact-actions{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1}
+.contact-btn{
+  display:inline-flex;align-items:center;gap:12px;padding:16px 40px;
+  border-radius:14px;text-decoration:none;font-weight:600;font-size:16px;
+  transition:all 0.5s cubic-bezier(0.4,0,0.2,1);
+  border:1px solid var(--border);color:#fff;background:rgba(255,255,255,0.02);
+  position:relative;overflow:hidden;backdrop-filter:blur(10px);
+  will-change:transform;
+}
+.contact-btn::before{
+  content:'';position:absolute;inset:0;opacity:0;transition:opacity 0.5s;z-index:-1;
+}
+.contact-btn:hover{transform:translateY(-4px) scale(1.02)}
+.contact-btn.wa{border-color:rgba(37,211,102,0.3);color:#25D366}
+.contact-btn.wa::before{background:radial-gradient(circle, rgba(37,211,102,0.15), transparent 70%)}
+.contact-btn.wa:hover{background:rgba(37,211,102,0.08);box-shadow:0 15px 40px rgba(37,211,102,0.25);border-color:rgba(37,211,102,0.5)}
+.contact-btn.wa:hover::before{opacity:1}
+.contact-btn.tg{border-color:rgba(42,171,238,0.3);color:#2AABEE}
+.contact-btn.tg::before{background:radial-gradient(circle, rgba(42,171,238,0.15), transparent 70%)}
+.contact-btn.tg:hover{background:rgba(42,171,238,0.08);box-shadow:0 15px 40px rgba(42,171,238,0.25);border-color:rgba(42,171,238,0.5)}
+.contact-btn.tg:hover::before{opacity:1}
+
+@media(max-width:480px){
+  .contact-box{padding:40px 24px;border-radius:20px}
+  .contact-box h3{font-size:26px}
+  .contact-btn{padding:14px 28px;font-size:15px}
 }
 
-/* Social Grid */
-.social{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-  gap:16px;
-  margin-top:35px;
+/* ===== FOOTER ===== */
+.footer{
+  border-top:1px solid rgba(255,255,255,0.04);
+  padding:80px 40px 50px;
+  background:linear-gradient(180deg, rgba(3,3,5,0.5), var(--bg));
+  overflow-x:hidden;max-width:100vw;position:relative;
+}
+.footer::before{
+  content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:200px;height:1px;background:linear-gradient(90deg,transparent,var(--primary),transparent);
+}
+.footer-grid{
+  max-width:1140px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:80px;margin-bottom:60px;
+}
+.footer-brand .logo{
+  width:44px;height:44px;border-radius:12px;
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  display:grid;place-items:center;font-weight:900;color:#fff;font-size:20px;margin-bottom:20px;
+  box-shadow:0 0 30px rgba(0,212,255,0.2);animation:logoPulse 3s ease-in-out infinite;
+}
+.footer-brand p{font-size:15px;color:var(--text-dim);line-height:1.9;max-width:320px}
+.footer-col h4{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--text-dim);margin-bottom:24px}
+.footer-col a{display:block;color:var(--text-dim);text-decoration:none;font-size:15px;margin-bottom:14px;transition:all 0.4s;position:relative;padding-left:0}
+.footer-col a:hover{color:var(--primary);padding-left:8px}
+.footer-col a::before{
+  content:'→';position:absolute;left:-16px;opacity:0;transition:all 0.4s;color:var(--primary);
+}
+.footer-col a:hover::before{opacity:1;left:-4px}
+.footer-social{display:flex;gap:14px;margin-top:24px}
+.footer-social a{
+  width:40px;height:40px;border-radius:12px;
+  background:rgba(255,255,255,0.03);border:1px solid var(--border);
+  display:grid;place-items:center;color:var(--text-dim);transition:all 0.4s;
+}
+.footer-social a:hover{color:var(--primary);border-color:var(--primary);transform:translateY(-4px) scale(1.1);box-shadow:0 8px 25px rgba(0,212,255,0.2)}
+
+.footer-bottom{
+  max-width:1140px;margin:auto;padding-top:40px;border-top:1px solid rgba(255,255,255,0.04);
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;
+  font-size:14px;color:var(--text-dim);
+}
+.footer-bottom a{color:var(--text-dim);text-decoration:none;transition:color 0.3s}
+.footer-bottom a:hover{color:var(--primary)}
+
+@media(max-width:768px){
+  .footer{padding:50px 24px 40px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:50px}
+}
+@media(max-width:480px){
+  .footer-grid{grid-template-columns:1fr;gap:40px}
+  .footer-bottom{flex-direction:column;text-align:center}
 }
 
-.social a{
-  position:relative;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:12px;
-  padding:18px;
-  border-radius:16px;
-  text-decoration:none;
-  font-weight:700;
-  font-size:15px;
-  color:#fff;
-  background:rgba(255,255,255,0.03);
-  border:1px solid rgba(255,255,255,0.06);
-  overflow:hidden;
-  transition:all 0.4s cubic-bezier(0.4,0,0.2,1);
-}
-.social a::before{
-  content:'';
-  position:absolute;
-  inset:0;
-  opacity:0;
-  transition:opacity 0.4s;
-}
-.social a:hover{
-  transform:translateY(-5px);
-  border-color:transparent;
-  box-shadow:0 10px 40px rgba(0,0,0,0.5);
-}
-.social a:hover::before{
-  opacity:0.1;
+/* ===== SCROLL REVEAL ===== */
+.reveal{opacity:0;transform:translateY(60px);transition:opacity 1s cubic-bezier(0.4,0,0.2,1), transform 1s cubic-bezier(0.4,0,0.2,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-scale{transform:scale(0.85);opacity:0;transition:all 1s cubic-bezier(0.4,0,0.2,1)}
+.reveal-scale.visible{transform:scale(1);opacity:1}
+.reveal-left{transform:translateX(-60px);opacity:0;transition:all 1s cubic-bezier(0.4,0,0.2,1)}
+.reveal-left.visible{transform:translateX(0);opacity:1}
+.reveal-right{transform:translateX(60px);opacity:0;transition:all 1s cubic-bezier(0.4,0,0.2,1)}
+.reveal-right.visible{transform:translateX(0);opacity:1}
+
+.stagger-children > *{opacity:0;transform:translateY(30px);transition:all 0.6s cubic-bezier(0.4,0,0.2,1)}
+.stagger-children.visible > *:nth-child(1){transition-delay:0.1s;opacity:1;transform:translateY(0)}
+.stagger-children.visible > *:nth-child(2){transition-delay:0.2s;opacity:1;transform:translateY(0)}
+.stagger-children.visible > *:nth-child(3){transition-delay:0.3s;opacity:1;transform:translateY(0)}
+.stagger-children.visible > *:nth-child(4){transition-delay:0.4s;opacity:1;transform:translateY(0)}
+
+@media (prefers-reduced-motion:reduce){
+  .reveal,.reveal-scale,.reveal-left,.reveal-right{opacity:1;transform:none;transition:none}
 }
 
-/* Brand Colors with Glow */
-.social a.fb{--brand:#1877F2;--brand-glow:rgba(24,119,242,0.4);}
-.social a.ig{--brand:#E1306C;--brand-glow:rgba(225,48,108,0.4);}
-.social a.tg{--brand:#2AABEE;--brand-glow:rgba(42,171,238,0.4);}
-.social a.wa{--brand:#25D366;--brand-glow:rgba(37,211,102,0.4);}
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:linear-gradient(180deg,var(--primary),var(--secondary));border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--primary)}
 
-.social a.fb::before{background:var(--brand);}
-.social a.ig::before{background:var(--brand);}
-.social a.tg::before{background:var(--brand);}
-.social a.wa::before{background:var(--brand);}
-
-.social a:hover{
-  border-color:var(--brand);
-  box-shadow:0 0 20px var(--brand-glow),0 10px 30px rgba(0,0,0,0.3);
-}
-.social a .icon{
-  font-size:20px;
-  transition:transform 0.3s;
-}
-.social a:hover .icon{
-  transform:scale(1.2);
-}
-
-/* Scrollbar */
-::-webkit-scrollbar{width:8px;}
-::-webkit-scrollbar-track{background:var(--bg);}
-::-webkit-scrollbar-thumb{background:var(--primary);border-radius:4px;}
-
-/* Responsive */
-@media(max-width:640px){
-  .container{padding:50px 16px;}
-  .card{padding:24px;}
-  .profile img{width:160px;height:160px;}
-  .intro-text{font-size:18px;}
-  .flag{width:32px;height:22px;}
-}
-
-/* Entrance Animations */
-.reveal{
-  opacity:0;
-  transform:translateY(30px);
-}
+/* ===== CONTENT VISIBILITY (Performance) ===== */
+section{contain:layout style paint;content-visibility:auto;contain-intrinsic-size:auto 500px}
+section:first-of-type{content-visibility:visible}
+@media(max-width:768px){section{content-visibility:visible;contain:none}}
 </style>
 </head>
 
 <body>
 
-<!-- Background Effects -->
-<div class="bg-orb orb-1"></div>
-<div class="bg-orb orb-2"></div>
-<div class="bg-orb orb-3"></div>
-<div class="noise"></div>
+<!-- LOADING -->
+<div class="loader" id="loader">
+  <div class="loader-ring"></div>
+  <div class="loader-counter" id="loaderCounter">0%</div>
+  <div class="loader-text" id="loaderText"></div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor-system">
+  <div class="cursor-dot" id="cursorDot"></div>
+</div>
+<div class="cursor-trail cursor-trail-1" id="trail1"></div>
+<div class="cursor-trail cursor-trail-2" id="trail2"></div>
+<div class="cursor-trail cursor-trail-3" id="trail3"></div>
+
+<!-- BACKGROUND -->
+<div class="bg-mesh">
+  <div class="mesh-orb mesh-1"></div>
+  <div class="mesh-orb mesh-2"></div>
+  <div class="mesh-orb mesh-3"></div>
+  <div class="mesh-orb mesh-4"></div>
+</div>
+<div class="grid-bg"></div>
+<div class="noise-anim"></div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress-wrap">
+  <div class="scroll-progress" id="scrollProgress"></div>
+</div>
+
+<!-- NAV -->
+<nav class="nav" id="nav" aria-label="Main navigation">
+  <div class="nav-logo">Tomas.</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle menu" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#projects" onclick="toggleMenu()">Projects</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="#contact" class="nav-cta" onclick="toggleMenu()">Hire Me</a>
+</div>
 
 <div class="container">
 
-  <!-- ===== Flags UAE & Egypt ===== -->
-  <div class="flags-wrap reveal">
-    <img class="flag" src="https://flagcdn.com/w80/ae.png" alt="United Arab Emirates" title="United Arab Emirates">
-    <div class="flag-divider"></div>
-    <img class="flag" src="https://flagcdn.com/w80/eg.png" alt="Egypt" title="Egypt">
-  </div>
-
-  <div class="badge reveal">
-    <span class="badge-dot"></span>
-    Available for Freelance
-  </div>
-
-  <h1 class="reveal">
-    Tomas Atef
-    <span>Web Developer | Android Root Expert | Reverse Engineer</span>
-  </h1>
-
-  <div class="profile-wrap reveal">
-    <div class="profile-glow"></div>
-    <div class="profile-ring"></div>
-    <div class="profile-ring-2"></div>
-    <div class="profile">
-      <img src="https://i.ibb.co/XkdMY5vn/IMG-20260510-193806-035.jpg" alt="Tomas Atef - Android Root & Reverse Engineering Expert">
-    </div>
-  </div>
-
-  <!-- ===== Main Card ===== -->
-  <div class="card reveal">
-
-    <div class="intro-text">
-      <b>Tomas Atef</b> — a Web Developer and deep-level Android systems engineer.
-      <br><br>
-      Specialized in <b>Android Root</b> with high proficiency — from <b>Magisk</b> installation and superuser policy management, to full device flashing and system recovery.
-      <br><br>
-      Expert in <b>Xiaomi Software</b> — flashing Global & China ROMs, Bootloader unlocking, Brick recovery, and MIUI/HyperOS customization.
-      <br><br>
-      Master of <b>Reverse Engineering</b> — APK decompilation, protection bypassing, source code modification, and resource/library extraction.
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="flags-wrap">
+      <img class="flag" src="https://flagcdn.com/w80/ae.png" alt="UAE" loading="lazy" width="40" height="30">
+      <div class="flag-divider"></div>
+      <img class="flag" src="https://flagcdn.com/w80/eg.png" alt="Egypt" loading="lazy" width="40" height="30">
     </div>
 
-    <div class="loodie-credit reveal">
-      <span class="tag">🤝 PARTNER</span>
-      <span>Advanced Root operations & modding — <b>with help from Loodi</b></span>
+    <div class="badge" aria-label="Availability">
+      <span class="badge-dot"></span>
+      Available for freelance work
     </div>
 
-    <div class="skills-grid">
-      <span class="skill-tag">⚡ Android Root</span>
-      <span class="skill-tag">📱 Xiaomi Flashing</span>
-      <span class="skill-tag">🔓 Reverse Engineering</span>
-      <span class="skill-tag">🛠️ APK Modding</span>
-      <span class="skill-tag">💻 Web Development</span>
-      <span class="skill-tag">🧩 Magisk Modules</span>
-      <span class="skill-tag">🔧 TWRP Recovery</span>
-      <span class="skill-tag">🌐 MERN Stack</span>
+    <h1>Tomas <span class="accent">Atef</span></h1>
+    <div class="dynamic-text-wrap" id="dynamicTextWrap">
+      <span id="dynamicText">Android Root Expert</span><span class="cursor"></span>
     </div>
 
-    <div class="social">
-      <a class="fb" href="https://www.facebook.com/share/17jSXnuRuy/" target="_blank" rel="noopener noreferrer" aria-label="Tomas Atef Facebook Page">
-        <span class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-        </span>
-        <span>Facebook</span>
-      </a>
-      <a class="ig" href="https://www.instagram.com/tomasatef_u?igsh=MWFjemQwMmxpZG8yeA==" target="_blank" rel="noopener noreferrer" aria-label="Tomas Atef Instagram">
-        <span class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-        </span>
-        <span>Instagram</span>
-      </a>
-      <a class="tg" href="https://t.me/root_Tom" target="_blank" rel="noopener noreferrer" aria-label="Tomas Atef Telegram">
-        <span class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0011.944 0zm5.508 7.56c.252.008.492.072.696.18.42.228.66.636.66 1.14 0 .072-.012.156-.024.24-.228 1.248-.864 3.756-1.92 7.548-.12.456-.36.684-.72.684-.192 0-.36-.072-.552-.24l-2.076-1.788-1.056.852c-.12.108-.24.156-.36.156-.096 0-.192-.036-.276-.108l.024-.276 1.008-3.936.012-.024c.012-.024.024-.048.024-.072 0-.06-.036-.108-.108-.108-.06 0-.132.024-.204.084l-2.616 2.376-1.464-.48c-.336-.108-.348-.348-.228-.516l5.832-5.352c.252-.228.504-.336.756-.324z"/></svg>
-        </span>
-        <span>Telegram</span>
-      </a>
-      <a class="wa" href="https://wa.me/201271170094" target="_blank" rel="noopener noreferrer" aria-label="Contact Tomas Atef on WhatsApp">
-        <span class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        </span>
-        <span>WhatsApp</span>
-      </a>
+    <div class="hero-image-wrap" id="heroImageWrap">
+      <div class="hero-image-glow"></div>
+      <img
+        src="https://res.cloudinary.com/dme0wu80m/image/upload/q_auto/f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg"
+        srcset="
+          https://res.cloudinary.com/dme0wu80m/image/upload/w_400,q_auto/f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg 400w,
+          https://res.cloudinary.com/dme0wu80m/image/upload/w_800,q_auto/f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg 800w,
+          https://res.cloudinary.com/dme0wu80m/image/upload/w_1200,q_auto/f_auto/v1779799040/IMG_20260526_153706_691_syycso.jpg 1200w
+        "
+        sizes="(max-width:768px) 85vw, 520px"
+        alt="Tomas Atef"
+        loading="eager"
+        decoding="async"
+        width="600"
+        height="450">
     </div>
-  </div>
+
+    <div class="cta-row">
+      <a href="#services" class="cta-btn cta-primary" id="ctaPrimary">View Services →</a>
+      <a href="#contact" class="cta-btn cta-secondary" id="ctaSecondary">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-row reveal-scale" aria-label="Statistics">
+    <div class="stat-card">
+      <div class="stat-num" data-target="50" data-counted="false">0+</div>
+      <div class="stat-label">Devices Fixed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-target="3" data-counted="false">0+</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" data-target="95" data-counted="false">0%</div>
+      <div class="stat-label">Recovery Rate</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">Fast</div>
+      <div class="stat-label">Response Time</div>
+    </div>
+  </section>
+
+  <!-- WHY ME -->
+  <section aria-label="Why me">
+    <div class="section-header">
+      <h2 class="section-title reveal"><span>Why Work With Me</span></h2>
+      <p class="section-sub reveal">Fast, safe, and reliable remote support for all your Android needs.</p>
+    </div>
+    <div class="why-grid stagger-children" id="whyGrid">
+      <div class="why-card reveal-left">
+        <div class="why-icon">⚡</div>
+        <h3>Fast Response</h3>
+        <p>Usually reply within a few hours. Urgent recovery cases get priority attention immediately.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">🛡️</div>
+        <h3>Safe Flashing</h3>
+        <p>Every step is backed up. Verified ROMs only. No guesswork, no random flashes.</p>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">💾</div>
+        <h3>No Data Loss</h3>
+        <p>Data preservation is the first priority before any system change or modification.</p>
+      </div>
+      <div class="why-card reveal-right">
+        <div class="why-icon">🌐</div>
+        <h3>Remote Support</h3>
+        <p>Most fixes done via TeamViewer or AnyDesk. No shop visit needed, worldwide support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" aria-label="Services">
+    <div class="section-header">
+      <h2 class="section-title reveal"><span>What I Do</span></h2>
+      <p class="section-sub reveal">Deep-level system engineering for Android devices and professional web solutions.</p>
+    </div>
+    <div class="services-grid stagger-children" id="servicesGrid">
+      <div class="service-card reveal-left">
+        <h3><span>⚡</span> Android Root</h3>
+        <p>Magisk setup, superuser access, system mods, and safety restore points. Full control with a guaranteed way back.</p>
+      </div>
+      <div class="service-card reveal">
+        <h3><span>📱</span> Xiaomi Software</h3>
+        <p>Global/China ROM flashing, bootloader unlock, brick recovery, and MIUI cleanup. Recovery solutions for hard-bricked devices.</p>
+      </div>
+      <div class="service-card reveal">
+        <h3><span>🔓</span> Reverse Engineering</h3>
+        <p>APK analysis, app modification, and Android system research. Understanding how things work under the hood.</p>
+      </div>
+      <div class="service-card reveal-right">
+        <h3><span>💻</span> Web Development</h3>
+        <p>Clean, fast websites and tools. No bloat. Built to work, rank, and convert visitors into clients.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" aria-label="Projects">
+    <div class="section-header">
+      <h2 class="section-title reveal"><span>Featured Work</span></h2>
+      <p class="section-sub reveal">Selected tools and builds shipped for real users.</p>
+    </div>
+    <div class="projects-grid stagger-children" id="projectsGrid">
+      <div class="project-card reveal-left">
+        <div class="project-img"><span class="emoji">🛠️</span></div>
+        <div class="project-body">
+          <h3>Xiaomi Recovery Tool</h3>
+          <p>One-click flasher with automatic ROM detection, EDL trigger, and rollback protection for Xiaomi devices.</p>
+          <div class="project-tags"><span>Python</span><span>Fastboot</span><span>MIUI</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img"><span class="emoji">🌐</span></div>
+        <div class="project-body">
+          <h3>Samsung Store Website</h3>
+          <p>Full e-commerce frontend with product filtering, cart system, and responsive design.</p>
+          <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+        </div>
+      </div>
+      <div class="project-card reveal-right">
+        <div class="project-img"><span class="emoji">⚙️</span></div>
+        <div class="project-body">
+          <h3>Custom Android Tweaks</h3>
+          <p>System-level modifications for performance, battery life, and UI customization.</p>
+          <div class="project-tags"><span>Magisk</span><span>Shell</span><span>Android</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section reveal" aria-label="Contact">
+    <div class="contact-box">
+      <h3>Start a Project</h3>
+      <p>Tell me what you need. I usually reply within a few hours on Telegram or WhatsApp.</p>
+      <div class="contact-actions">
+        <a class="contact-btn wa" href="https://wa.me/201271170094" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+        <a class="contact-btn tg" href="https://t.me/root_Tom" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0011.944 0zm5.508 7.56c.252.008.492.072.696.18.42.228.66.636.66 1.14 0 .072-.012.156-.024.24-.228 1.248-.864 3.756-1.92 7.548-.12.456-.36.684-.72.684-.192 0-.36-.072-.552-.24l-2.076-1.788-1.056.852c-.12.108-.24.156-.36.156-.096 0-.192-.036-.276-.108l.024-.276 1.008-3.936.012-.024c.012-.024.024-.048.024-.072 0-.06-.036-.108-.108-.108-.06 0-.132.024-.204.084l-2.616 2.376-1.464-.48c-.336-.108-.348-.348-.228-.516l5.832-5.352c.252-.228.504-.336.756-.324z"/></svg>
+          Telegram
+        </a>
+      </div>
+    </div>
+  </section>
 
 </div>
 
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">T</div>
+      <p>Android root expert and Xiaomi recovery specialist. Remote support available worldwide.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/share/17jSXnuRuy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/tomasatef_u" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://t.me/root_Tom" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0011.944 0zm5.508 7.56c.252.008.492.072.696.18.42.228.66.636.66 1.14 0 .072-.012.156-.024.24-.228 1.248-.864 3.756-1.92 7.548-.12.456-.36.684-.72.684-.192 0-.36-.072-.552-.24l-2.076-1.788-1.056.852c-.12.108-.24.156-.36.156-.096 0-.192-.036-.276-.108l.024-.276 1.008-3.936.012-.024c.012-.024.024-.048.024-.072 0-.06-.036-.108-.108-.108-.06 0-.132.024-.204.084l-2.616 2.376-1.464-.48c-.336-.108-.348-.348-.228-.516l5.832-5.352c.252-.228.504-.336.756-.324z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Android Root</a>
+      <a href="#services">Xiaomi Flashing</a>
+      <a href="#services">Reverse Engineering</a>
+      <a href="#services">Web Development</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="https://wa.me/201271170094" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://t.me/root_Tom" target="_blank" rel="noopener noreferrer">Telegram</a>
+      <a>🇦🇪 UAE</a>
+      <a>🇪🇬 Egypt</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Tomas Atef — All rights reserved.</span>
+    <span>Built with precision.</span>
+  </div>
+</footer>
+
 <script>
-// GSAP Animations
-gsap.utils.toArray('.reveal').forEach((el,i)=>{
-  gsap.to(el,{
-    opacity:1,
-    y:0,
-    duration:1,
-    delay:i*0.15,
-    ease:"power3.out"
-  });
+// ===== LOADING =====
+const loaderText = document.getElementById('loaderText');
+const loaderCounter = document.getElementById('loaderCounter');
+const text = 'System Initializing';
+
+text.split('').forEach((char, i) => {
+  const span = document.createElement('span');
+  span.textContent = char === ' ' ? '\u00A0' : char;
+  span.style.animationDelay = `${i * 0.05}s`;
+  loaderText.appendChild(span);
 });
 
-// Profile hover tilt effect
-const profile=document.querySelector('.profile-wrap');
-profile.addEventListener('mousemove',(e)=>{
-  const rect=profile.getBoundingClientRect();
-  const x=e.clientX-rect.left-rect.width/2;
-  const y=e.clientY-rect.top-rect.height/2;
-  gsap.to('.profile img',{
-    rotationY:x/10,
-    rotationX:-y/10,
-    duration:0.5,
-    ease:"power2.out"
-  });
+let count = 0;
+const counterInterval = setInterval(() => {
+  count += Math.floor(Math.random() * 8) + 2;
+  if (count >= 100) { count = 100; clearInterval(counterInterval); }
+  loaderCounter.textContent = count + '%';
+}, 40);
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    loaderCounter.textContent = '100%';
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('done');
+    }, 400);
+  }, 800);
 });
-profile.addEventListener('mouseleave',()=>{
-  gsap.to('.profile img',{
-    rotationY:0,
-    rotationX:0,
-    duration:0.5
+
+// ===== CUSTOM CURSOR (RAF Optimized) =====
+const isTouch = window.matchMedia('(pointer: coarse)').matches;
+if (!isTouch) {
+  const dot = document.getElementById('cursorDot');
+  const t1 = document.getElementById('trail1');
+  const t2 = document.getElementById('trail2');
+  const t3 = document.getElementById('trail3');
+  
+  let mouseX = 0, mouseY = 0;
+  let dotX = 0, dotY = 0;
+  let t1x = 0, t1y = 0;
+  let t2x = 0, t2y = 0;
+  let t3x = 0, t3y = 0;
+  let rafId = null;
+  let isActive = true;
+  
+  document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+    if (!isActive) { isActive = true; animateCursor(); }
+  }, { passive: true });
+  
+  function animateCursor() {
+    if (!isActive) return;
+    dotX += (mouseX - dotX) * 0.2;
+    dotY += (mouseY - dotY) * 0.2;
+    t1x += (mouseX - t1x) * 0.12;
+    t1y += (mouseY - t1y) * 0.12;
+    t2x += (mouseX - t2x) * 0.08;
+    t2y += (mouseY - t2y) * 0.08;
+    t3x += (mouseX - t3x) * 0.04;
+    t3y += (mouseY - t3y) * 0.04;
+    
+    dot.style.transform = `translate3d(${dotX}px, ${dotY}px, 0)`;
+    t1.style.transform = `translate3d(${t1x}px, ${t1y}px, 0)`;
+    t2.style.transform = `translate3d(${t2x}px, ${t2y}px, 0)`;
+    t3.style.transform = `translate3d(${t3x}px, ${t3y}px, 0)`;
+    
+    rafId = requestAnimationFrame(animateCursor);
+  }
+  animateCursor();
+  
+  // Pause cursor when tab hidden
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      isActive = false;
+      if (rafId) cancelAnimationFrame(rafId);
+    } else {
+      isActive = true;
+      animateCursor();
+    }
   });
+  
+  const hoverTargets = document.querySelectorAll('a, button, .stat-card, .why-card, .service-card, .project-card, .contact-btn');
+  hoverTargets.forEach(el => {
+    el.addEventListener('mouseenter', () => dot.classList.add('hovering'));
+    el.addEventListener('mouseleave', () => dot.classList.remove('hovering'));
+    el.addEventListener('mousedown', () => dot.classList.add('clicking'));
+    el.addEventListener('mouseup', () => dot.classList.remove('clicking'));
+  });
+}
+
+// ===== SCROLL PROGRESS + NAV (Passive & Optimized) =====
+const scrollProgress = document.getElementById('scrollProgress');
+const nav = document.getElementById('nav');
+let ticking = false;
+
+function updateScroll() {
+  const scrollY = window.scrollY || document.documentElement.scrollTop;
+  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = height > 0 ? (scrollY / height) : 0;
+  scrollProgress.style.width = (scrolled * 100) + '%';
+  
+  if (scrollY > 60) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+  
+  // Parallax with translate3d for GPU
+  const m1 = document.querySelector('.mesh-1');
+  const m2 = document.querySelector('.mesh-2');
+  const m3 = document.querySelector('.mesh-3');
+  const m4 = document.querySelector('.mesh-4');
+  if (m1) m1.style.transform = `translate3d(0, ${scrollY * 0.08}px, 0)`;
+  if (m2) m2.style.transform = `translate3d(0, ${-scrollY * 0.12}px, 0)`;
+  if (m3) m3.style.transform = `translate3d(0, ${scrollY * 0.06}px, 0)`;
+  if (m4) m4.style.transform = `translate3d(0, ${-scrollY * 0.04}px, 0)`;
+  
+  ticking = false;
+}
+
+window.addEventListener('scroll', () => {
+  if (!ticking) {
+    requestAnimationFrame(updateScroll);
+    ticking = true;
+  }
+}, { passive: true });
+
+// ===== DYNAMIC TYPING =====
+const roles = ['Android Root Expert', 'Xiaomi Recovery Specialist', 'Reverse Engineer', 'Web Developer'];
+let roleIdx = 0, charIdx = 0, deleting = false;
+const textEl = document.getElementById('dynamicText');
+
+function type() {
+  const cur = roles[roleIdx];
+  textEl.textContent = deleting ? cur.substring(0, charIdx - 1) : cur.substring(0, charIdx + 1);
+  deleting ? charIdx-- : charIdx++;
+  let spd = deleting ? 40 : 90;
+  if (!deleting && charIdx === cur.length) { spd = 2500; deleting = true; }
+  else if (deleting && charIdx === 0) { deleting = false; roleIdx = (roleIdx + 1) % roles.length; spd = 500; }
+  setTimeout(type, spd);
+}
+setTimeout(type, 1200);
+
+// ===== MOBILE MENU =====
+function toggleMenu() {
+  const menu = document.getElementById('mobileMenu');
+  const hamburger = document.getElementById('hamburger');
+  const spans = hamburger.children;
+  menu.classList.toggle('open');
+  document.body.style.overflow = menu.classList.contains('open') ? 'hidden' : '';
+  
+  if (menu.classList.contains('open')) {
+    spans[0].style.transform = 'rotate(45deg) translate(6px,6px)';
+    spans[1].style.opacity = '0'; spans[1].style.transform = 'scaleX(0)';
+    spans[2].style.transform = 'rotate(-45deg) translate(6px,-6px)';
+  } else {
+    spans[0].style.transform = '';
+    spans[1].style.opacity = '1'; spans[1].style.transform = '';
+    spans[2].style.transform = '';
+  }
+}
+
+// ===== MAGNETIC BUTTONS =====
+if (!isTouch) {
+  const magneticBtns = document.querySelectorAll('.cta-btn, .contact-btn, .nav-cta');
+  magneticBtns.forEach(btn => {
+    btn.addEventListener('mousemove', (e) => {
+      const rect = btn.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      btn.style.transform = `translate3d(${x * 0.35}px, ${y * 0.35}px, 0) scale(1.02)`;
+    });
+    btn.addEventListener('mouseleave', () => {
+      btn.style.transform = '';
+    });
+  });
+}
+
+// ===== SCROLL REVEAL (IntersectionObserver) =====
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+
+document.querySelectorAll('.reveal, .reveal-scale, .reveal-left, .reveal-right').forEach(el => {
+  revealObserver.observe(el);
 });
+
+const staggerObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      staggerObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.stagger-children').forEach(el => staggerObserver.observe(el));
+
+const titleObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      titleObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('.section-title').forEach(el => titleObserver.observe(el));
+
+// ===== COUNTER =====
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && entry.target.dataset.counted === 'false') {
+      entry.target.dataset.counted = 'true';
+      const target = parseInt(entry.target.dataset.target);
+      if (target) {
+        let current = 0;
+        const increment = target / 60;
+        const suffix = entry.target.textContent.includes('%') ? '%' : '+';
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) { current = target; clearInterval(timer); }
+          entry.target.textContent = Math.floor(current) + suffix;
+        }, 25);
+      }
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('.stat-num[data-target]').forEach(el => counterObserver.observe(el));
+
+// ===== 3D TILT =====
+if (!isTouch) {
+  const tiltCards = document.querySelectorAll('.stat-card, .why-card, .service-card, .project-card');
+  tiltCards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = (y - centerY) / 15;
+      const rotateY = (centerX - x) / 15;
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translate3d(0, -8px, 0) scale(1.01)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+}
+
+// ===== YEAR =====
+document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>
-</html>
+  </html>
